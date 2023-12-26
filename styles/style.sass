@@ -39,6 +39,19 @@ body
         width: 100%
         padding: 15px 0
         font-size: 18px
+        &:focus + label span
+            color: lightblue
+            transform: translateY(-30px)
+    label
+        position: absolute
+        top: 50%
+        left: 0
+        transform: translateY(-50%)
+        span
+            display: inline-block
+            font-size: 18px
+            min-width: 5px
+            transition: 0.5s ease
 
 .btn
     cursor: pointer
