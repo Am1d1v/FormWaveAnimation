@@ -28,6 +28,38 @@ body {
   animation: linkEffect 5s ease infinite;
 }
 
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 300px;
+}
+.form-control input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  color: #fff;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  background: lightblue;
+  padding: 10px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.btn:active {
+  transform: scale(0.95);
+}
+
 @keyframes linkEffect {
   0% {
     opacity: 0.5;
